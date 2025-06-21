@@ -1,21 +1,31 @@
-Create a simple Spring Boot application with REST endpoints to:
-Return a hello message
-Greet a user by name (query param)
-Calculate square of a number (path variable)
-Return grade based on marks (query param)
-Format a date from input
-Combine path variable and query param in one endpoint
-No database needed. Practice handling requests, responses, and common errors like port conflicts.
+# Hello World Spring Boot
 
-Endpoints:
-GET /api/hello
+Simple REST API (Hello World) built with Spring Boot.
 
-GET /api/greet?name=yourName
+## Features
 
-GET /api/square/{number}
+This application provides several REST endpoints to practice handling requests, responses, and common errors (like port conflicts). No database is required.
 
-GET /api/grade?marks=yourMarks
+## Endpoints
 
-GET /api/format-date?date=yyyy-MM-dd
+- **GET `/api/hello`**  
+  Returns a hello message.
 
-GET /api/user/{id}?info=type
+- **GET `/api/greet?name=yourName`**  
+  Greets a user by name (provided as a query parameter).
+
+- **GET `/api/square/{number}`**  
+  Calculates and returns the square of a number (provided as a path variable).
+
+- **GET `/api/grade?marks=yourMarks`**  
+  Returns a grade based on the marks (provided as a query parameter).
+
+- **GET `/api/format-date?date=yyyy-MM-dd`**  
+  Formats a date from the input (provided as a query parameter).
+
+- **GET `/api/user/{id}?info=type`**  
+  Combines a path variable and a query parameter in one endpoint.
+
+---
+
+Let me know if you want to add installation instructions, usage examples, or any other content!
